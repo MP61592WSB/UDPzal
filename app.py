@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 app.config['MYSQL_HOST'] = 'udpbaza.mysql.database.azure.com'#'localhost'
-app.config['MYSQL_USER'] = 'probagen@probagen'#'root'
+app.config['MYSQL_USER'] = 'udpadmin@udpbaza'#'root'
 app.config['MYSQL_PASSWORD'] = 'Pa$$w0rd'
 app.config['MYSQL_DB'] = 'mydb'
 app.config['MYSQL_PORT'] = 3306
